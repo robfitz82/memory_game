@@ -1,0 +1,41 @@
+body{
+	background: black;
+}
+
+h1{
+	text-align: center;
+	font-family: cursive;
+	color: white;
+}
+
+table {
+	margin: 30px auto;
+	max-width: 960px;
+	background: black;
+}
+
+td {
+	width: 175px;
+	height: 175px;
+	background-color: silver;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 15px;
+}
+
+td div{
+	background-color: black;
+	width: 176px;
+	height: 176px;
+	border-radius: 15px;
+}
+
+.matched {
+	display: block;
+	background-color: red;
+	display: table-cell;
+	vertical-align: middle;
+}
+.unmatched {
+	display: none;
+}
